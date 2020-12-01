@@ -1,0 +1,47 @@
+.banner{
+    background: url('https://www.proservicescanhelp.com/wp-content/uploads/2018/10/bg-kitchen.png');
+    height: 64vh;
+    position: relative;
+    margin-top: 5px;
+}
+
+.banner_searchBtn{
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+}
+
+.banner_search{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.banner_info{
+    background-color: black;
+    color: white;
+    padding-top: 23vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 36px;
+    width: 300px;
+}
+
+.banner_info > h5{
+    margin-top: 12px;
+}
+
+.banner_info > button{
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.banner_info > button:hover{
+    background-color: white;
+    color: #ff7779;
+    transition: ease-in-out 0.4s;
+}
